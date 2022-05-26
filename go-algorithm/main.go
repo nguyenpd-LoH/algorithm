@@ -5,5 +5,6 @@ import (
 )
 
 func main() {
-	leetcode.WaterBottles()
+	//	leetcode.TestWaterBottles()
+	leetcode.TestNumIndenticalPair()
 }

@@ -32,7 +32,7 @@ func numWaterBottles(numBottles int, numExchange int) int {
 	return results
 }
 
-func WaterBottles() {
+func TestWaterBottles() {
 	fmt.Sprintf("Check with numBottles %v and numExchange  %v", 9, 3)
 	results := numWaterBottles(9, 3)
 	fmt.Println("Results:", results)
